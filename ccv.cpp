@@ -1,8 +1,3 @@
-// use the Luhn algorithm to validate an inputted credit card number 
-// 1. from right to left, double the value of every second digit 
-// 2. if the doubled value > 9, add the digits together to get single digit
-// 3. sum all the digits (original and doubled), and see if # % 10 = 0
-
 #include <string> 
 #include <vector> 
 #include <iostream> 
@@ -121,7 +116,4 @@ int main() {
             cout << "The industry is " + industry; 
         }
     }
-
 }
-
-
